@@ -25,32 +25,6 @@ const Footer = () => {
             <p className="text-gray-300 max-w-md">
               Private Settlement Kernel - Zero-knowledge OTC trading platform for institutional DeFi. Execute large trades without market impact.
             </p>
-            <div className="flex space-x-4 pt-2">
-              <a 
-                href="https://twitter.com/psk_services" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-green-400 transition-colors"
-              >
-                <Instagram size={20} />
-              </a>
-              <a 
-                href="https://discord.gg/psk" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-green-400 transition-colors"
-              >
-                <Facebook size={20} />
-              </a>
-              <a 
-                href="https://github.com/psk-services" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-green-400 transition-colors"
-              >
-                <Youtube size={20} />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -107,23 +81,9 @@ const Footer = () => {
             <h3 className="text-white font-medium mb-4 pb-2 border-b border-green-500/10">
               Contact Us
             </h3>
-            <ul className="space-y-4">
-              <li className="flex items-center space-x-3 text-gray-300">
-                <Mail size={16} className="text-green-500" />
-                <span>psk-services@gmail.com</span>
-              </li>
-              <li className="flex items-center space-x-3 text-gray-300">
-                <Facebook size={16} className="text-green-500" />
-                <a 
-                  href="https://discord.gg/psk" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="hover:text-green-400 transition-colors"
-                >
-                  Discord Community
-                </a>
-              </li>
-            </ul>
+            <p className="text-gray-300">
+              For inquiries about institutional trading, please contact us through the platform.
+            </p>
           </div>
         </div>
 
