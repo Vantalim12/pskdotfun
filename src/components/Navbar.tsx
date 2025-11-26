@@ -28,10 +28,10 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'Services', path: '/services' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'References', path: '/references' },
-    { name: 'Booking', path: '/booking' },
+    { name: 'Trading', path: '/trading' },
+    { name: 'Features', path: '/features' },
+    { name: 'Documentation', path: '/documentation' },
+    { name: 'Compliance', path: '/compliance' },
   ];
 
   return (

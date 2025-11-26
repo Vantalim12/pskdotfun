@@ -49,7 +49,7 @@ const HeroSection = () => {
             <div className="flex items-center mb-4">
               <div className="bg-green-500/20 text-green-400 rounded-full px-4 py-1 text-sm font-medium inline-flex items-center">
                 <Sparkles className="h-3.5 w-3.5 mr-1" />
-                Premium Sound & Light Services
+                Zero-Knowledge DeFi Trading
               </div>
             </div>
             

@@ -74,38 +74,38 @@ const Index = () => {
       <section className="py-20 px-6 md:px-12 bg-psyco-black-light">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-white mb-2">Perfect for Any Event</h2>
-            <p className="text-gray-400 max-w-2xl mx-auto">
-              We provide custom sound and lighting solutions for a wide range of events
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
-            {[
-              { name: "Concerts", icon: <Volume2 size={32} /> },
-              { name: "Weddings", icon: <PartyPopper size={32} /> },
-              { name: "Corporate", icon: <CalendarDays size={32} /> },
-              { name: "Festivals", icon: <Music2 size={32} /> }
-            ].map((event, index) => (
+              <h2 className="text-3xl font-bold text-white mb-2">Perfect for Any Trader</h2>
+              <p className="text-gray-400 max-w-2xl mx-auto">
+                From DeFi whales to institutional OTC desks
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+              {[
+                { name: "Whales", icon: <Volume2 size={32} /> },
+                { name: "OTC Desks", icon: <PartyPopper size={32} /> },
+                { name: "Institutions", icon: <CalendarDays size={32} /> },
+                { name: "DAOs", icon: <Music2 size={32} /> }
+              ].map((trader, index) => (
               <div 
                 key={index}
                 className="glassmorphism flex flex-col items-center justify-center py-8 px-4 text-center card-hover animate-fade-in"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="text-psyco-green-DEFAULT mb-4">
-                  {event.icon}
+                  {trader.icon}
                 </div>
-                <h3 className="text-lg font-medium text-white">{event.name}</h3>
+                <h3 className="text-lg font-medium text-white">{trader.name}</h3>
               </div>
             ))}
           </div>
           
           <div className="mt-12 text-center">
             <Link
-              to="/booking"
+              to="/trading"
               className="inline-flex items-center bg-psyco-green-DEFAULT hover:bg-psyco-green-dark text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 btn-glow"
             >
-              Book Your Event
+              Start Trading
               <MoveRight className="ml-2 h-5 w-5" />
             </Link>
           </div>
@@ -120,23 +120,23 @@ const Index = () => {
         
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Elevate Your Event?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Trade Privately?</h2>
             <p className="text-gray-300 max-w-2xl mx-auto mb-8">
-              Let's work together to create an unforgettable experience for your guests. Book our services today and bring your vision to life.
+              Join the dark pool and execute large trades without market impact. Zero-knowledge privacy for institutional DeFi.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                to="/booking"
+                to="/trading"
                 className="bg-psyco-green-DEFAULT hover:bg-psyco-green-dark text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 flex items-center justify-center btn-glow"
               >
-                Book Now
+                Start Trading
                 <MoveRight className="ml-2 h-5 w-5" />
               </Link>
               <Link
-                to="/services"
+                to="/features"
                 className="bg-transparent border border-psyco-green-DEFAULT text-psyco-green-DEFAULT hover:bg-psyco-green-DEFAULT/10 font-medium py-3 px-8 rounded-lg transition-all duration-300 flex items-center justify-center"
               >
-                View Services
+                View Features
               </Link>
             </div>
           </div>
