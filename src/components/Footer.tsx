@@ -14,20 +14,20 @@ const Footer = () => {
               <div className="h-8 w-8 relative">
                 <img 
                   src="/lovable-uploads/8acfad30-aa90-4edd-b779-aafd43058584.png" 
-                  alt="Psycotik Crew Logo" 
+                  alt="PSK Services Logo" 
                   className="h-full w-full object-contain" 
                 />
               </div>
               <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-500">
-                Psycotik Crew
+                PSK Services
               </h2>
             </div>
             <p className="text-gray-300 max-w-md">
-              Professional sound and light rental service for events, concerts, and parties. Turning your events into unforgettable experiences.
+              Private Settlement Kernel - Zero-knowledge OTC trading platform for institutional DeFi. Execute large trades without market impact.
             </p>
             <div className="flex space-x-4 pt-2">
               <a 
-                href="https://instagram.com" 
+                href="https://twitter.com/psk_services" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-green-400 transition-colors"
@@ -35,7 +35,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a 
-                href="https://facebook.com/psicptyk.free" 
+                href="https://discord.gg/psk" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-green-400 transition-colors"
@@ -43,7 +43,7 @@ const Footer = () => {
                 <Facebook size={20} />
               </a>
               <a 
-                href="https://youtube.com" 
+                href="https://github.com/psk-services" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-green-400 transition-colors"
@@ -69,34 +69,34 @@ const Footer = () => {
               </li>
               <li>
                 <NavLink 
-                  to="/services" 
+                  to="/trading" 
                   className="text-gray-300 hover:text-green-400 transition-colors"
                 >
-                  Services
+                  Trading
                 </NavLink>
               </li>
               <li>
                 <NavLink 
-                  to="/blog" 
+                  to="/features" 
                   className="text-gray-300 hover:text-green-400 transition-colors"
                 >
-                  Blog
+                  Features
                 </NavLink>
               </li>
               <li>
                 <NavLink 
-                  to="/references" 
+                  to="/documentation" 
                   className="text-gray-300 hover:text-green-400 transition-colors"
                 >
-                  References
+                  Documentation
                 </NavLink>
               </li>
               <li>
                 <NavLink 
-                  to="/booking" 
+                  to="/compliance" 
                   className="text-gray-300 hover:text-green-400 transition-colors"
                 >
-                  Booking
+                  Compliance
                 </NavLink>
               </li>
             </ul>
@@ -115,12 +115,12 @@ const Footer = () => {
               <li className="flex items-center space-x-3 text-gray-300">
                 <Facebook size={16} className="text-green-500" />
                 <a 
-                  href="https://www.facebook.com/psicptyk.free" 
+                  href="https://discord.gg/psk" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-green-400 transition-colors"
                 >
-                  facebook.com/psicptyk.free
+                  Discord Community
                 </a>
               </li>
             </ul>
@@ -129,7 +129,7 @@ const Footer = () => {
 
         <div className="border-t border-green-500/10 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Psycotik Crew. All rights reserved.
+            © {new Date().getFullYear()} PSK Services. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-green-400 text-sm transition-colors">

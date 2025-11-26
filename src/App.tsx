@@ -6,12 +6,10 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { WalletContextProvider } from "./contexts/WalletContext";
 import Index from "./pages/Index";
-import Services from "./pages/Services";
 import Trading from "./pages/Trading";
-import Blog from "./pages/Blog";
-import BlogDetail from "./pages/BlogDetail";
-import References from "./pages/References";
-import Booking from "./pages/Booking";
+import Features from "./pages/Features";
+import Documentation from "./pages/Documentation";
+import Compliance from "./pages/Compliance";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
@@ -30,12 +28,10 @@ const App = () => (
           <main className="min-h-screen">
             <Routes>
               <Route path="/" element={<Index />} />
-              <Route path="/services" element={<Services />} />
               <Route path="/trading" element={<Trading />} />
-              <Route path="/blog" element={<Blog />} />
-              <Route path="/blog/:id" element={<BlogDetail />} />
-              <Route path="/references" element={<References />} />
-              <Route path="/booking" element={<Booking />} />
+              <Route path="/features" element={<Features />} />
+              <Route path="/documentation" element={<Documentation />} />
+              <Route path="/compliance" element={<Compliance />} />
               <Route path="/auth" element={<Auth />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
