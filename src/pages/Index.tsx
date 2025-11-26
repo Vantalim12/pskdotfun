@@ -12,25 +12,25 @@ const Index = () => {
 
   const featuredServices = [
     {
-      title: "Sound System",
-      description: "Professional sound systems for any size venue, from small gatherings to large festivals.",
+      title: "Dark Pool Order Book",
+      description: "Encrypted order matching prevents front-running and market manipulation for institutional trades.",
       icon: <Volume2 size={24} />,
       imageSrc: "/lovable-uploads/708f9e32-840d-46a4-aaa4-75ad2689e16f.png",
-      link: "/services#sound"
+      link: "/trading"
     },
     {
-      title: "Lighting Equipment",
-      description: "Create the perfect atmosphere with our state-of-the-art lighting equipment and expert setup.",
+      title: "ZK Privacy Layer",
+      description: "Zero-knowledge proofs and stealth addresses keep your trading activity completely private.",
       icon: <Lightbulb size={24} />,
       imageSrc: "/lovable-uploads/becfc2e3-b59f-4f86-afca-b9f6fc7b7c14.png",
-      link: "/services#lighting"
+      link: "/services"
     },
     {
-      title: "DJ Services",
-      description: "Experienced DJs to keep your event energized with the perfect music selection.",
+      title: "TWAP Execution",
+      description: "Time-weighted average price execution breaks large orders into randomized micro-trades.",
       icon: <Music2 size={24} />,
       imageSrc: "/lovable-uploads/03e83f18-76a1-4349-a197-dbde03a93343.png",
-      link: "/services#dj"
+      link: "/services"
     }
   ];
 
@@ -43,9 +43,9 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-12">
             <div>
-              <h2 className="text-3xl font-bold text-white mb-2">Our Services</h2>
+              <h2 className="text-3xl font-bold text-white mb-2">Core Features</h2>
               <p className="text-gray-400 max-w-2xl">
-                Professional equipment and expert technicians for all your sound and lighting needs
+                Enterprise-grade privacy and execution for institutional DeFi trading
               </p>
             </div>
             <Link 

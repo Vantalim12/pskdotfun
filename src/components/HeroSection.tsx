@@ -54,27 +54,26 @@ const HeroSection = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-glow mb-6">
-              Elevate Your <span className="text-green-500">Event</span> Experience
+              Private Settlement <span className="text-green-500">Kernel</span> Services
             </h1>
             
             <p className="text-xl text-gray-300 mb-8">
-              Professional sound and lighting solutions that bring your event to life. 
-              From concerts to private parties, we deliver exceptional audiovisual experiences.
+              Zero-knowledge OTC trading platform. Execute large trades without market impact using encrypted order matching and atomic swaps.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                to="/booking"
+                to="/trading"
                 className="bg-green-500 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 flex items-center justify-center btn-glow"
               >
-                Book Now
+                Start Trading
                 <MoveRight className="ml-2 h-5 w-5" />
               </Link>
               <Link
-                to="/services"
+                to="/auth"
                 className="bg-transparent border border-green-500 text-green-500 hover:bg-green-500/10 font-medium py-3 px-8 rounded-lg transition-all duration-300 flex items-center justify-center"
               >
-                Our Services
+                Login / Sign Up
               </Link>
             </div>
           </div>
