@@ -1,8 +1,8 @@
-
 import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import pskLogo from '@/assets/psk-logo.jpg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,11 +43,11 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <NavLink to="/" className="flex items-center">
-          <div className="h-20 w-auto md:h-28 md:w-auto relative">
+          <div className="h-12 w-12 md:h-16 md:w-16 relative">
             <img 
-              src="/lovable-uploads/5964f950-36a7-430c-a887-4eea91ad4973.png" 
+              src={pskLogo}
               alt="PSK Services Logo" 
-              className="h-full w-auto object-contain" 
+              className="h-full w-full object-contain rounded-lg" 
             />
           </div>
         </NavLink>
