@@ -62,13 +62,18 @@ const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                to="/trading"
-                className="bg-green-500 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 flex items-center justify-center btn-glow"
-              >
-                Start Trading
-                <MoveRight className="ml-2 h-5 w-5" />
-              </Link>
+              <div className="flex flex-col gap-2">
+                <Link
+                  to="/trading"
+                  className="bg-green-500 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-lg transition-all duration-300 flex items-center justify-center btn-glow"
+                >
+                  Start Trading
+                  <MoveRight className="ml-2 h-5 w-5" />
+                </Link>
+                <div className="text-center text-sm text-gray-400">
+                  Contract Address: <span className="text-green-400 font-mono">TBA</span>
+                </div>
+              </div>
               <Link
                 to="/auth"
                 className="bg-transparent border border-green-500 text-green-500 hover:bg-green-500/10 font-medium py-3 px-8 rounded-lg transition-all duration-300 flex items-center justify-center"

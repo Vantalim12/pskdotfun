@@ -1,7 +1,7 @@
-
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Mail, Facebook, Instagram, Youtube } from 'lucide-react';
+import pskLogo from '@/assets/psk-logo.jpg';
+import pumpfunLogo from '@/assets/pumpfun-logo.png';
 
 const Footer = () => {
   return (
@@ -11,11 +11,11 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="h-8 w-8 relative">
+              <div className="h-12 w-12 relative">
                 <img 
-                  src="/lovable-uploads/8acfad30-aa90-4edd-b779-aafd43058584.png" 
+                  src={pskLogo}
                   alt="PSK Services Logo" 
-                  className="h-full w-full object-contain" 
+                  className="h-full w-full object-contain rounded-lg" 
                 />
               </div>
               <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-500">
@@ -25,6 +25,26 @@ const Footer = () => {
             <p className="text-gray-300 max-w-md">
               Private Settlement Kernel - Zero-knowledge OTC trading platform for institutional DeFi. Execute large trades without market impact.
             </p>
+            <div className="flex items-center gap-4">
+              <a
+                href="https://x.com/PSKServices_"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-green-400 transition-colors"
+              >
+                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                </svg>
+              </a>
+              <a
+                href="https://pump.fun"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center hover:opacity-80 transition-opacity"
+              >
+                <img src={pumpfunLogo} alt="Pump.fun" className="h-6 w-6" />
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
