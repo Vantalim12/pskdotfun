@@ -105,7 +105,7 @@ const Footer = () => {
                 <img src={pumpfunLogo} alt="Pump.fun" className="h-12 w-12" />
               </a>
               <a
-                href="https://github.com/lucidagentOnSol/PSKServices"
+                href="https://github.com/PSKServicesdev/PSKServices"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-green-400 transition-colors"
