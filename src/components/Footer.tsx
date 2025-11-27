@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import pskLogo from '@/assets/psk-logo.jpg';
 import pumpfunLogo from '@/assets/pumpfun-logo.png';
+import socialIcons from '@/assets/social-icons.png';
 
 const Footer = () => {
   return (
@@ -25,26 +26,6 @@ const Footer = () => {
             <p className="text-gray-300 max-w-md">
               Private Settlement Kernel - Zero-knowledge OTC trading platform for institutional DeFi. Execute large trades without market impact.
             </p>
-            <div className="flex items-center gap-4">
-              <a
-                href="https://x.com/PSKServices_"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-green-400 transition-colors"
-              >
-                <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
-              </a>
-              <a
-                href="https://pump.fun"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center hover:opacity-80 transition-opacity"
-              >
-                <img src={pumpfunLogo} alt="Pump.fun" className="h-6 w-6" />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -101,9 +82,12 @@ const Footer = () => {
             <h3 className="text-white font-medium mb-4 pb-2 border-b border-green-500/10">
               Contact Us
             </h3>
-            <p className="text-gray-300">
+            <p className="text-gray-300 mb-4">
               For inquiries about institutional trading, please contact us through the platform.
             </p>
+            <div className="flex items-center gap-3">
+              <img src={socialIcons} alt="Social Links" className="h-6" />
+            </div>
           </div>
         </div>
 

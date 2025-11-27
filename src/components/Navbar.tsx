@@ -43,7 +43,7 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <NavLink to="/" className="flex items-center">
-          <div className="h-12 w-12 md:h-16 md:w-16 relative">
+          <div className="h-24 w-24 md:h-32 md:w-32 relative">
             <img 
               src={pskLogo}
               alt="PSK Services Logo" 
