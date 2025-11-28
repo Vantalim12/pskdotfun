@@ -97,7 +97,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://pump.fun"
+                href="https://pump.fun/coin/5vbn6guMrUFFRB7BHriwD3ikJk9hNYEY4dmt4K4bpump"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center hover:opacity-80 transition-opacity"

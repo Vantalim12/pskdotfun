@@ -74,15 +74,15 @@ const Index = () => {
       <section className="py-20 px-6 md:px-12 bg-psyco-black-DEFAULT">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-white mb-2">Solana Live Chart</h2>
-            <p className="text-gray-400">Real-time SOL/USD price movement</p>
+            <h2 className="text-3xl font-bold text-white mb-2">PSK Token Live Chart</h2>
+            <p className="text-gray-400">Real-time price movement</p>
           </div>
           <div className="glassmorphism p-6 rounded-lg">
             <div className="w-full h-[500px] relative overflow-hidden rounded-lg">
               <iframe
-                src="https://www.tradingview.com/widgetembed/?frameElementId=tradingview_widget&symbol=BINANCE%3ASOLUSDT&interval=D&hidesidetoolbar=0&symboledit=1&saveimage=1&toolbarbg=f1f3f6&studies=%5B%5D&theme=dark&style=1&timezone=Etc%2FUTC&withdateranges=1&showpopupbutton=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&showpopupbutton=1&locale=en&utm_source=&utm_medium=widget&utm_campaign=chart&utm_term=BINANCE%3ASOLUSDT"
+                src="https://dexscreener.com/solana/5vbn6guMrUFFRB7BHriwD3ikJk9hNYEY4dmt4K4bpump?embed=1&theme=dark&trades=0&info=0"
                 className="w-full h-full border-0"
-                title="Solana Price Chart"
+                title="PSK Token Price Chart"
               ></iframe>
             </div>
           </div>
