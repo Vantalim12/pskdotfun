@@ -80,7 +80,7 @@ const Index = () => {
           <div className="glassmorphism p-6 rounded-lg">
             <div className="w-full h-[500px] relative overflow-hidden rounded-lg">
               <iframe
-                src="https://dexscreener.com/solana/5vbn6guMrUFFRB7BHriwD3ikJk9hNYEY4dmt4K4bpump?embed=1&theme=dark&trades=0&info=0"
+                src="https://dexscreener.com/solana/5vbn6guMrUFFRB7BHriwD3ikJk9hNYEY4dmt4K4bpump?embed=1&theme=dark"
                 className="w-full h-full border-0"
                 title="PSK Token Price Chart"
               ></iframe>
