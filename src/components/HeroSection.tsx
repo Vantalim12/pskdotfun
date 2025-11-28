@@ -71,7 +71,7 @@ const HeroSection = () => {
                   <MoveRight className="ml-2 h-5 w-5" />
                 </Link>
                 <div className="text-center text-sm text-gray-400">
-                  Contract Address: <span className="text-green-400 font-mono">TBA</span>
+                  Contract Address: <span className="text-green-400 font-mono">5vbn6guMrUFFRB7BHriwD3ikJk9hNYEY4dmt4K4bpump</span>
                 </div>
               </div>
               <Link
